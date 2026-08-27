@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { Book, Chapter, ReadingSettings, Highlight, Bookmark, HighlightColor } from '../types';
-import { HIGHLIGHT_PRESETS, getHighlightStyle } from '../highlightColors';
+import { HIGHLIGHT_PRESETS, getHighlightStyle } from '../';
 import {
   ArrowLeft,
   ChevronLeft,
