@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { User } from '../types';
 import { User as UserIcon, Mail, Lock, Sparkles, X, Check, Cloud, ShieldCheck } from 'lucide-react';
-import { StorageService } from '../lib/storage';
+import { StorageService } from '../storage';
 
 interface AuthModalProps {
   isOpen: boolean;
