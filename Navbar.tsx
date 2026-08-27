@@ -1,7 +1,6 @@
 import React from 'react';
 import { BookOpen, Library, BookmarkCheck, Settings, Cloud, RefreshCw, User as UserIcon, Smartphone } from 'lucide-react';
 import { User } from '../types';
-import { usePwaInstall } from '../usePwaInstall';
 
 interface NavbarProps {
   activeTab: 'library' | 'shelves' | 'notes' | 'settings';
