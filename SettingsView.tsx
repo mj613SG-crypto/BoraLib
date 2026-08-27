@@ -18,8 +18,8 @@ import {
   Wifi,
   Sparkles,
 } from 'lucide-react';
-import { StorageService } from '../lib/storage';
-import { usePwaInstall } from '../lib/usePwaInstall';
+import { StorageService } from '../storage';
+import { usePwaInstall } from '../usePwaInstall';
 
 interface SettingsViewProps {
   user: User | null;
