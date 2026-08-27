@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Highlight, Bookmark, Book } from '../types';
-import { HIGHLIGHT_PRESETS, getHighlightStyle } from '../lib/highlightColors';
+import { HIGHLIGHT_PRESETS, getHighlightStyle } from '../highlightColors';
 import {
   BookmarkCheck,
   Search,
