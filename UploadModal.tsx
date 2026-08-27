@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { Shelf, Book } from '../types';
 import { Upload, X, FileText, CheckCircle2, AlertCircle, Loader2, Image, RefreshCw } from 'lucide-react';
-import { parseEpubFile } from '../lib/epubParser';
+import { parseEpubFile } from '../epubParser';
 
 interface UploadModalProps {
   shelves: Shelf[];
