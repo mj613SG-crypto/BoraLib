@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { Book, Shelf } from '../types';
-import { BookCard } from './BookCard';
-import { PhysicalBookshelf } from './PhysicalBookshelf';
+import { BookCard } from './';
+import { PhysicalBookshelf } from './';
 import {
   Search,
   Plus,
