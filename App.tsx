@@ -1,15 +1,15 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { User, Book, Shelf, Highlight, Bookmark, ReadingSettings } from './types';
 import { StorageService } from './storage';
-import { Navbar } from './components/Navbar';
-import { LibraryView } from './components/LibraryView';
-import { ShelvesView } from './components/ShelvesView';
-import { NotesView } from './components/NotesView';
-import { SettingsView } from './components/SettingsView';
-import { EpubReader } from './components/EpubReader';
-import { UploadModal } from './components/UploadModal';
-import { AuthModal } from './components/AuthModal';
-import { ShelfModal } from './components/ShelfModal';
+import { Navbar } from './Navbar';
+import { LibraryView } from './LibraryView';
+import { ShelvesView } from './ShelvesView';
+import { NotesView } from './NotesView';
+import { SettingsView } from './SettingsView';
+import { EpubReader } from './EpubReader';
+import { UploadModal } from './UploadModal';
+import { AuthModal } from './AuthModal';
+import { ShelfModal } from './ShelfModal';
 
 type NavTab = 'library' | 'shelves' | 'notes' | 'settings';
 
