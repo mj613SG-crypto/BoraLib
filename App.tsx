@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { User, Book, Shelf, Highlight, Bookmark, ReadingSettings } from './types';
-import { StorageService } from './lib/storage';
+import { StorageService } from './storage';
 import { Navbar } from './components/Navbar';
 import { LibraryView } from './components/LibraryView';
 import { ShelvesView } from './components/ShelvesView';
